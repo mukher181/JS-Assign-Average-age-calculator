@@ -1,0 +1,11 @@
+let age1 = prompt("Welcome \n Enter the age of each student One by One \n To Calculate the average age of ten students in class \n\nEnter the age of the first person:");
+let age2 = prompt("Enter the age of the second person:");
+let age3 = prompt("Enter the age of the third person:");
+let age4 = prompt("Enter the age of the fourth person:");
+let age5 = prompt("Enter the age of the fifth person:");
+let age6 = prompt("Enter the age of the sixth person:");
+let age7 = prompt("Enter the age of the seventh person:");
+let age8 = prompt("Enter the age of the eighth person:");
+let age9 = prompt("Enter the age of the ninth person:");
+let age10 = prompt("Enter the age of the tenth person:");
+ alert(`Average age is ${(parseInt(age1) + parseInt(age2) + parseInt(age3) + parseInt(age4) + parseInt(age5) + parseInt(age6) + parseInt(age7) + parseInt(age8) + parseInt(age9) + parseInt(age10)) / 10}`);
